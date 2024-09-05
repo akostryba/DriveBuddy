@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7CA0492C095DEA00A6C7FC /* DriveBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0482C095DEA00A6C7FC /* DriveBuddyApp.swift */; };
+		6D7CA0502C095DEA00A6C7FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA04F2C095DEA00A6C7FC /* ContentView.swift */; };
+		6D7CA0522C095DEB00A6C7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7CA0512C095DEB00A6C7FC /* Assets.xcassets */; };
+		6D7CA0562C095DEB00A6C7FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7CA0552C095DEB00A6C7FC /* Preview Assets.xcassets */; };
+		6D7CA05D2C0968DB00A6C7FC /* LocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA05C2C0968DB00A6C7FC /* LocationTracker.swift */; };
+		6D7CA05F2C0974A100A6C7FC /* MotionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA05E2C0974A100A6C7FC /* MotionTracker.swift */; };
+		6D7CA0612C0BC09600A6C7FC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0602C0BC09600A6C7FC /* UserData.swift */; };
+		6D7CA0632C0BC17B00A6C7FC /* DriveInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0622C0BC17B00A6C7FC /* DriveInstance.swift */; };
+		6D7CA0652C0BC19D00A6C7FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0642C0BC19D00A6C7FC /* User.swift */; };
+		6D7CA0682C0F6E1300A6C7FC /* DriveArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0672C0F6E1300A6C7FC /* DriveArc.swift */; };
+		6D7CA06A2C0F7CA500A6C7FC /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0692C0F7CA500A6C7FC /* Duration.swift */; };
+		6D7CA06E2C10C3BB00A6C7FC /* DriveModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA06C2C10C3BB00A6C7FC /* DriveModel.xcdatamodeld */; };
+		6D7CA0702C10C4D300A6C7FC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA06F2C10C4D300A6C7FC /* DataController.swift */; };
+		6D7CA0732C10C84500A6C7FC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0722C10C84500A6C7FC /* HomeView.swift */; };
+		6D7CA0752C10C88E00A6C7FC /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0742C10C88E00A6C7FC /* Period.swift */; };
+		6D7CA0772C10C8B100A6C7FC /* TrackDrivesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0762C10C8B100A6C7FC /* TrackDrivesView.swift */; };
+		6D7CA0792C10C8CE00A6C7FC /* DriveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0782C10C8CE00A6C7FC /* DriveView.swift */; };
+		6D7CA07B2C10C90800A6C7FC /* DriveStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA07A2C10C90800A6C7FC /* DriveStatsView.swift */; };
+		6D7CA07D2C10C92B00A6C7FC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA07C2C10C92B00A6C7FC /* HistoryView.swift */; };
+		6D7CA07F2C10C97300A6C7FC /* HorizontalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA07E2C10C97300A6C7FC /* HorizontalBarChartView.swift */; };
+		6D7CA0812C10C9C300A6C7FC /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0802C10C9C300A6C7FC /* TestingView.swift */; };
+		6D7CA0842C10D75D00A6C7FC /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7CA0832C10D75D00A6C7FC /* Stat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D7CA0452C095DEA00A6C7FC /* DriveBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7CA0482C095DEA00A6C7FC /* DriveBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveBuddyApp.swift; sourceTree = "<group>"; };
+		6D7CA04F2C095DEA00A6C7FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D7CA0512C095DEB00A6C7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D7CA0532C095DEB00A6C7FC /* DriveBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DriveBuddy.entitlements; sourceTree = "<group>"; };
+		6D7CA0552C095DEB00A6C7FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D7CA05C2C0968DB00A6C7FC /* LocationTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTracker.swift; sourceTree = "<group>"; };
+		6D7CA05E2C0974A100A6C7FC /* MotionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTracker.swift; sourceTree = "<group>"; };
+		6D7CA0602C0BC09600A6C7FC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		6D7CA0622C0BC17B00A6C7FC /* DriveInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveInstance.swift; sourceTree = "<group>"; };
+		6D7CA0642C0BC19D00A6C7FC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6D7CA0672C0F6E1300A6C7FC /* DriveArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveArc.swift; sourceTree = "<group>"; };
+		6D7CA0692C0F7CA500A6C7FC /* Duration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		6D7CA06D2C10C3BB00A6C7FC /* DriveModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DriveModel.xcdatamodel; sourceTree = "<group>"; };
+		6D7CA06F2C10C4D300A6C7FC /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		6D7CA0722C10C84500A6C7FC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6D7CA0742C10C88E00A6C7FC /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		6D7CA0762C10C8B100A6C7FC /* TrackDrivesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDrivesView.swift; sourceTree = "<group>"; };
+		6D7CA0782C10C8CE00A6C7FC /* DriveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveView.swift; sourceTree = "<group>"; };
+		6D7CA07A2C10C90800A6C7FC /* DriveStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveStatsView.swift; sourceTree = "<group>"; };
+		6D7CA07C2C10C92B00A6C7FC /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		6D7CA07E2C10C97300A6C7FC /* HorizontalBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBarChartView.swift; sourceTree = "<group>"; };
+		6D7CA0802C10C9C300A6C7FC /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		6D7CA0832C10D75D00A6C7FC /* Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7CA0422C095DEA00A6C7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7CA03C2C095DEA00A6C7FC = {
+			isa = PBXGroup;
+			children = (
+				6D7CA0472C095DEA00A6C7FC /* DriveBuddy */,
+				6D7CA0462C095DEA00A6C7FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7CA0462C095DEA00A6C7FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA0452C095DEA00A6C7FC /* DriveBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7CA0472C095DEA00A6C7FC /* DriveBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA0872C10D7EB00A6C7FC /* Helpers */,
+				6D7CA0862C10D7B500A6C7FC /* Managers */,
+				6D7CA0852C10D77B00A6C7FC /* DummyData */,
+				6D7CA0822C10D74600A6C7FC /* Enums */,
+				6D7CA0712C10C81C00A6C7FC /* Views */,
+				6D7CA06B2C10C38C00A6C7FC /* DataModel */,
+				6D7CA0662C0E0C9400A6C7FC /* Models */,
+				6D7CA0482C095DEA00A6C7FC /* DriveBuddyApp.swift */,
+				6D7CA0512C095DEB00A6C7FC /* Assets.xcassets */,
+				6D7CA0532C095DEB00A6C7FC /* DriveBuddy.entitlements */,
+				6D7CA0542C095DEB00A6C7FC /* Preview Content */,
+			);
+			path = DriveBuddy;
+			sourceTree = "<group>";
+		};
+		6D7CA0542C095DEB00A6C7FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA0552C095DEB00A6C7FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6D7CA0662C0E0C9400A6C7FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA0642C0BC19D00A6C7FC /* User.swift */,
+				6D7CA0622C0BC17B00A6C7FC /* DriveInstance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6D7CA06B2C10C38C00A6C7FC /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA06C2C10C3BB00A6C7FC /* DriveModel.xcdatamodeld */,
+				6D7CA06F2C10C4D300A6C7FC /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		6D7CA0712C10C81C00A6C7FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA04F2C095DEA00A6C7FC /* ContentView.swift */,
+				6D7CA0722C10C84500A6C7FC /* HomeView.swift */,
+				6D7CA0762C10C8B100A6C7FC /* TrackDrivesView.swift */,
+				6D7CA0782C10C8CE00A6C7FC /* DriveView.swift */,
+				6D7CA07A2C10C90800A6C7FC /* DriveStatsView.swift */,
+				6D7CA07C2C10C92B00A6C7FC /* HistoryView.swift */,
+				6D7CA07E2C10C97300A6C7FC /* HorizontalBarChartView.swift */,
+				6D7CA0802C10C9C300A6C7FC /* TestingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D7CA0822C10D74600A6C7FC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA0742C10C88E00A6C7FC /* Period.swift */,
+				6D7CA0832C10D75D00A6C7FC /* Stat.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		6D7CA0852C10D77B00A6C7FC /* DummyData */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA0602C0BC09600A6C7FC /* UserData.swift */,
+			);
+			path = DummyData;
+			sourceTree = "<group>";
+		};
+		6D7CA0862C10D7B500A6C7FC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA05C2C0968DB00A6C7FC /* LocationTracker.swift */,
+				6D7CA05E2C0974A100A6C7FC /* MotionTracker.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6D7CA0872C10D7EB00A6C7FC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6D7CA0672C0F6E1300A6C7FC /* DriveArc.swift */,
+				6D7CA0692C0F7CA500A6C7FC /* Duration.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7CA0442C095DEA00A6C7FC /* DriveBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7CA0592C095DEB00A6C7FC /* Build configuration list for PBXNativeTarget "DriveBuddy" */;
+			buildPhases = (
+				6D7CA0412C095DEA00A6C7FC /* Sources */,
+				6D7CA0422C095DEA00A6C7FC /* Frameworks */,
+				6D7CA0432C095DEA00A6C7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriveBuddy;
+			productName = akostryba;
+			productReference = 6D7CA0452C095DEA00A6C7FC /* DriveBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7CA03D2C095DEA00A6C7FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6D7CA0442C095DEA00A6C7FC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 6D7CA0402C095DEA00A6C7FC /* Build configuration list for PBXProject "DriveBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D7CA03C2C095DEA00A6C7FC;
+			productRefGroup = 6D7CA0462C095DEA00A6C7FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7CA0442C095DEA00A6C7FC /* DriveBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7CA0432C095DEA00A6C7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7CA0562C095DEB00A6C7FC /* Preview Assets.xcassets in Resources */,
+				6D7CA0522C095DEB00A6C7FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7CA0412C095DEA00A6C7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7CA05F2C0974A100A6C7FC /* MotionTracker.swift in Sources */,
+				6D7CA0812C10C9C300A6C7FC /* TestingView.swift in Sources */,
+				6D7CA07B2C10C90800A6C7FC /* DriveStatsView.swift in Sources */,
+				6D7CA0772C10C8B100A6C7FC /* TrackDrivesView.swift in Sources */,
+				6D7CA0702C10C4D300A6C7FC /* DataController.swift in Sources */,
+				6D7CA0732C10C84500A6C7FC /* HomeView.swift in Sources */,
+				6D7CA0612C0BC09600A6C7FC /* UserData.swift in Sources */,
+				6D7CA06A2C0F7CA500A6C7FC /* Duration.swift in Sources */,
+				6D7CA07D2C10C92B00A6C7FC /* HistoryView.swift in Sources */,
+				6D7CA0492C095DEA00A6C7FC /* DriveBuddyApp.swift in Sources */,
+				6D7CA0752C10C88E00A6C7FC /* Period.swift in Sources */,
+				6D7CA0682C0F6E1300A6C7FC /* DriveArc.swift in Sources */,
+				6D7CA05D2C0968DB00A6C7FC /* LocationTracker.swift in Sources */,
+				6D7CA07F2C10C97300A6C7FC /* HorizontalBarChartView.swift in Sources */,
+				6D7CA06E2C10C3BB00A6C7FC /* DriveModel.xcdatamodeld in Sources */,
+				6D7CA0652C0BC19D00A6C7FC /* User.swift in Sources */,
+				6D7CA0632C0BC17B00A6C7FC /* DriveInstance.swift in Sources */,
+				6D7CA0502C095DEA00A6C7FC /* ContentView.swift in Sources */,
+				6D7CA0842C10D75D00A6C7FC /* Stat.swift in Sources */,
+				6D7CA0792C10C8CE00A6C7FC /* DriveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6D7CA0572C095DEB00A6C7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D7CA0582C095DEB00A6C7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6D7CA05A2C095DEB00A6C7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DriveBuddy/DriveBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DriveBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DWW392H2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This will be used to obtain your location.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akostryb.DriveBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D7CA05B2C095DEB00A6C7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DriveBuddy/DriveBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DriveBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = 3DWW392H2X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This will be used to obtain your location.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akostryb.DriveBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7CA0402C095DEA00A6C7FC /* Build configuration list for PBXProject "DriveBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7CA0572C095DEB00A6C7FC /* Debug */,
+				6D7CA0582C095DEB00A6C7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7CA0592C095DEB00A6C7FC /* Build configuration list for PBXNativeTarget "DriveBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7CA05A2C095DEB00A6C7FC /* Debug */,
+				6D7CA05B2C095DEB00A6C7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D7CA06C2C10C3BB00A6C7FC /* DriveModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D7CA06D2C10C3BB00A6C7FC /* DriveModel.xcdatamodel */,
+			);
+			currentVersion = 6D7CA06D2C10C3BB00A6C7FC /* DriveModel.xcdatamodel */;
+			path = DriveModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D7CA03D2C095DEA00A6C7FC /* Project object */;
+}
